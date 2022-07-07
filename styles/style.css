@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Hind Siliguri', sans-serif;
+    color: #E6EDF2;
+    margin: 0;
+}
+
+body {
+    overflow: hidden;
+    margin: 0;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.box__first {
+    width: 555px;
+    height: 296px;
+    background-image: url(/pictures/Rectangle\ 94.png);
+    /* display: flex;
+    justify-content: left; */
+    margin-right: 30px;
+    position: relative;
+}
+.box__first-content {
+    margin: 75px 0 0 35px;
+    width: 249px;
+
+}
+.box__first-text {
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+.box__first-title {
+    font-weight: 600;
+    font-size: 31px;
+}
+
+.box__first-img {
+    position: relative;
+    left: 240px;
+    bottom: 260px;
+}
+.box__second {
+    width: 555px;
+    height: 296px;
+    background-image: url(/pictures/Rectangle\ 15\ \(1\).png);
+    /* display: flex;
+    justify-content: center; */
+}
+.box__second-content {
+    margin: 75px 0 0 35px;
+    width: 258px;
+}
+.box__second-text {
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+.box__second-title {
+    font-weight: 600;
+    font-size: 31px;
+}
+
+.box__second-img {
+    position: relative;
+    left: 260px;
+    bottom: 210px;
+}
